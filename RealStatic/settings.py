@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Base',
 ]
 
 MIDDLEWARE = [
@@ -87,14 +88,14 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_TZ = True
 
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
 STATIC_URL = 'static/'
 
 

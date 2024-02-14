@@ -4,3 +4,5 @@ __pycache__/
 
 .env
 RealStatic/__pycache__/
+Base/__pycache__/
+Base/migrations/__pycache__/
