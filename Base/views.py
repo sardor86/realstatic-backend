@@ -8,3 +8,11 @@ def home_page(request) -> HttpResponse:
 
 def about_page(request) -> HttpResponse:
     return render(request, 'templates/base/about.html')
+
+
+def privacy_page(request) -> HttpResponse:
+    return render(request, 'templates/base/privacy.html')
+
+
+def license_page(request) -> HttpResponse:
+    return render(request, 'templates/base/license.html')
