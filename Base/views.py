@@ -16,3 +16,7 @@ def privacy_page(request) -> HttpResponse:
 
 def license_page(request) -> HttpResponse:
     return render(request, 'templates/base/license.html')
+
+
+def contact_page(request) -> HttpResponse:
+    return render(request, 'templates/base/contact.html')
