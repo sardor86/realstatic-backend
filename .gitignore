@@ -6,3 +6,5 @@ __pycache__/
 RealStatic/__pycache__/
 Base/__pycache__/
 Base/migrations/__pycache__/
+House/__pycache__/
+House/migrations/__pycache__/
