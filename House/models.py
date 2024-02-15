@@ -25,3 +25,14 @@ class House(models.Model):
 class HouseImages(models.Model):
     house = models.ForeignKey(House, on_delete=models.CASCADE)
     image = models.ImageField('image', upload_to='house')
+
+    class Meta:
+        db_table = 'image'
+        verbose_name = 'Image'
+        verbose_name_plural = 'Images'
+
+    def __str__(self) -> str:
+        return f'Image<{self.id}>'
+
+    def __repr__(self) -> str:
+        return f'Image<{self.id}>'
